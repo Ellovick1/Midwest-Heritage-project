@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h6 {
+    margin: 0;
+}
+
+tr {
+    font-size: 0.7rem;
+}
+
+nav ul li a {
+    text-decoration: underline;
+}
