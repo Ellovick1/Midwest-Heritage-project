@@ -23,93 +23,107 @@
       <h5 class="text-center">Welcome to Midwest Heritage - Online Banking Service | Secured Online System</h5>
     </section>
     <section class="row mx-0">
-        <div class="col-md-2">
-            <div>
-              <img class="w-75" src="/images/midwest_heritage-logo.png" alt="">
-              <div class="mt-4">
-                <div>
-                  <a href="/index.html"><button class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1">My
-                      Account</button></a>
-                </div>
-                <div>
-                  <button class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1">Money Transfer</button>
-                </div>
-                <div>
-                  <a href="/TransactionHistory.html"><button
-                      class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1">Transaction
-                      History</button></a>
-                </div>
-                
-                <div>
-                  
-                  <!-- Button trigger modal -->
-                  <button type="button" class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1" data-toggle="modal" data-target="#exampleModalCenter">
-                    Change Password
-                  </button>
-    
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header text-center">
-                          <h5 class="modal-title" id="exampleModalLongTitle">Password</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <label for="">Old Password</label>
-                              <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-                         
-                              <label for="">New Password</label>
-                              <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-                          
-                              <label for="">Confirm Password</label>
-                              <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-    
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-    
-                <div>
-                  <!-- Button trigger modal -->
-                  <button type="button" class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1" data-toggle="modal" data-target=".bd-example-modal-sm">Logout</button>
-    
-                  <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-sm">
-                      <div class="modal-content">
-                        <div class="modal-header border-0">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true" class="text-danger">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body ">
-                           <p class="text-center font-weight-bold">Are you sure you <br> want to Logout?</p>
-                        </div>
-                        <div class="modal-footer border-0">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Yes</button>
-                          <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-    
-              </div>
-    
-              <div class="mt-3">
-                <img class="w-75" height="150px" src="/images/online-banking.jfif" alt="">
-              </div>
+      <div class="col-12 col-md-2">
+        <div class="row pr-2">
+          <div class="">
+            <div class="d-flex d-md-block justify-content-between mt-2">
+              <img class="logo" src="/images/midwest_heritage-logo.png" alt="">
+              <img class="transaction-images w-25 mb-2 d-block d-md-none float-end" src="/images/passport-image.jpg" alt="">
             </div>
-    
+            <div class="row d-md-block mt-4 mx-0">
+              <div class="col-4 col-md-12 p-2 ">
+                
+                  <a href="/index.html"><button class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center  p-1">My
+                      Account </button></a>
+                
+              </div>
+              <div class="col-4 col-md-12 p-2 ">
+                <a href="#/" class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center p-1">Money Transfer</a>
+              </div>
+              <div class="col-4 col-md-12 p-2 ">
+                <a href="/TransactionHistory.html"
+                    class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center p-1">Transaction
+                    History</a>
+              </div>
+
+              <div class="col-4 col-md-12 p-2 ">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center p-1"
+                  data-toggle="modal" data-target="#exampleModalCenter">
+                  Change Password
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Password</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <label for="">Old Password</label>
+                        <input type="text" class="form-control" placeholder="" aria-label="Username"
+                          aria-describedby="basic-addon1">
+
+                        <label for="">New Password</label>
+                        <input type="text" class="form-control" placeholder="" aria-label="Username"
+                          aria-describedby="basic-addon1">
+
+                        <label for="">Confirm Password</label>
+                        <input type="text" class="form-control" placeholder="" aria-label="Username"
+                          aria-describedby="basic-addon1">
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4 col-md-12 p-2 ">
+                <!-- Button trigger modal -->
+                <button type="button" class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center p-1"
+                  data-toggle="modal" data-target=".bd-example-modal-sm">Logout</button>
+
+                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog"
+                  aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                      <div class="modal-header border-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true" class="text-danger">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body ">
+                        <p class="text-center font-weight-bold">Are you sure you <br> want to Logout?</p>
+                      </div>
+                      <div class="modal-footer border-0">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Yes</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="mt-3 d-none d-md-block" style="width: 90%; margin: auto;">
+              <img class="w-75 mb-2" height="150px" src="/images/online-banking.jfif" alt="">
+            </div>
           </div>
+        </div>
+
+      </div>
+
       <div class="col-md-8 border border-bottom-0 border-top-0">
         <div class="bg-primary d-flex align-items-center justify-content-center rounded"
           style="background-position: left; background-image: linear-gradient(to right, rgb(158, 179, 236), rgba(130, 150, 235, 0) ), url(/images/online-banking.jfif); background-repeat: no-repeat;">
@@ -126,6 +140,12 @@
               </li>
               <li class="mx-1"><a class="" href="#">2</a></li>
               <li class="mx-1"><a class="" href="#">3</a></li>
+              <li class="mx-1"><a class="" href="#">4</a></li>
+              <li class="mx-1"><a class="" href="#">5</a></li>
+              <li class="mx-1"><a class="" href="#">6</a></li>
+              <li class="mx-1"><a class="" href="#">7</a></li>
+              <li class="mx-1"><a class="" href="#">8</a></li>
+              <li class="mx-1"><a class="" href="#">9</a></li>
             </ul>
           </nav>
 
@@ -153,8 +173,9 @@
                 <td class="table-secondary">4,674,109.00</td>
                 <td class="table-secondary">Steven Ross</td>
                 <td class="table-secondary">Midwest Heritage Bank</td>
-                <td class="table-secondary">1017721090</td>
+                <td class="table-secondary"><a href="">1017721090</a></td>
                 <td class="table-secondary">13/12/2021 <br> 10:24:23</td>
+                <td class="table-secondary"><a href="">Transfer slip</a></td>
               </tr>
 
               <tr>
@@ -165,8 +186,22 @@
                 <td class="">4,674,109.00</td>
                 <td class="">Steven Ross</td>
                 <td class="">Midwest Heritage Bank</td>
-                <td class="">1017721090</td>
+                <td class=""><a href="">1017721090</a> </td>
                 <td class="">13/12/2021 <br> 10:24:23</td>
+                <td class=""><a href="">Transfer slip</a></td>
+              </tr>
+
+              <tr>
+                <td class="table-secondary">JJ LLP</td>
+                <td class="table-secondary">1000,000.00</td>
+                <td class="table-secondary">EXCHANGE</td>
+                <td class="table-secondary">credit</td>
+                <td class="table-secondary">4,674,109.00</td>
+                <td class="table-secondary">Steven Ross</td>
+                <td class="table-secondary">Midwest Heritage Bank</td>
+                <td class="table-secondary"><a href="">1017721090</a></td>
+                <td class="table-secondary">13/12/2021 <br> 10:24:23</td>
+                <td class="table-secondary"><a href="">Transfer slip</a></td>
               </tr>
 
             </tbody>
@@ -175,14 +210,31 @@
 
       </div>
 
-      <div class="col-md-2">
-        <img class="w-100 mb-2" src="/images/passport-image.jpg" alt="">
-        <img class="w-100" src="/images/mobile-banking-img.jfif" alt="">
-        <img class="w-100" src="/images//mobile-banking-security-img.jpg" alt="">
-        <img class="w-100" src="/images/secure-banking-promise.png" alt="">
+      <div class="col-12 col-md-2">
+        <div class="d-flex  justify-content-center mx-md-0 d-md-block">
+          <div class="col-2 col-md-12">
+            <img class="transaction-images  w-100 mb-2 d-none d-md-block" src="/images/passport-image.jpg" alt="">
+            <img width="80px" class="d-block d-md-none" src="/images/verisign-secured-logo.png" alt="">
+          </div>
+          <div class="col-3 col-md-12">
+            <img class="transaction-images w-100" src="/images/mobile-banking-img.jfif" alt="">
+          </div>
+          <div class="col-3 col-md-12">
+            <img class="transaction-images w-100" src="/images//mobile-banking-security-img.jpg" alt="">
+          </div>
+          <div class="col-3 col-md-12">
+            <img class="transaction-images w-100" src="/images/secure-banking-promise.png" alt="">
+          </div>
+        </div>
       </div>
     </section>
   </main>
+  <footer class="bg-dark mb-0">
+    <div class=" text-center text-white py-2">
+            <i class="fa fa-copyright text-white" aria-hidden="true"></i>
+            Copyright - Midwest Heritage
+    </div>
+</footer>
 
 
 
