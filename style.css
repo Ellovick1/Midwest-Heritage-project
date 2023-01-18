@@ -15,3 +15,25 @@ tr {
 nav ul li a {
     text-decoration: underline;
 }
+
+
+
+@media (max-width: 786px) {
+    .logo {
+            width: 150px !important;
+    }
+
+    .transaction-images {
+        height: 100px;
+    }
+}
+
+@media (max-width: 425px) {
+    .transaction-btns {
+        height: 55px;
+    }
+
+    .transaction-images {
+        height: 50px;
+    }
+}
