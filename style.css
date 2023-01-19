@@ -10,8 +10,41 @@ h6 {
 
 tr {
     font-size: 0.7rem;
+    color: rgb(99, 96, 96);
+    font-weight: 700;
 }
 
-nav ul li a {
+td, th {
+    border: 2px solid white;
+}
+
+nav ul li a, td a {
     text-decoration: underline;
+}
+
+.logo {
+    width: 75%;
+}
+
+
+
+@media (max-width: 786px) {
+    .logo {
+            width: 150px !important;
+            height: 70px;
+    }
+
+    .transaction-images {
+        height: 100px;
+    }
+}
+
+@media (max-width: 425px) {
+    .transaction-btns {
+        height: 55px;
+    }
+
+    .transaction-images {
+        height: 50px;
+    }
 }

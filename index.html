@@ -17,34 +17,39 @@
 </head>
 
 <body>
-
+  <header>
+    <h5 class="text-center">Welcome to Midwest Heritage - Online Banking Service | Secured Online System</h5>
+  </header>
   <main>
-    <section>
-      <h5 class="text-center">Welcome to Midwest Heritage - Online Banking Service | Secured Online System</h5>
-    </section>
+    <marquee class="bg-primary text-white" behavior="" direction="right">Friday, November 20, 2022  6:06:30 AM</marquee>
     <section class="row mx-0">
       <div class="col-12 col-md-2">
-        <div class="row">
+        <div class="row pr-2">
           <div class="">
-            <img class="w-75" src="/images/midwest_heritage-logo.png" alt="">
+            <div class="d-flex d-md-block justify-content-between mt-2">
+              <img class="logo" src="/images/midwest_heritage-logo.png" alt="">
+              <img class="transaction-images w-25 mb-2 d-block d-md-none float-end" src="/images/passport-image.jpg" alt="">
+            </div>
             <div class="row d-md-block mt-4 mx-0">
-              <div class="col-4 col-md-12">
-                <a href="/index.html"><button class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1">My
-                    Account</button></a>
+              <div class="col-4 col-md-12 p-2 ">
+                
+                  <a href="/index.html"><button class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center  p-1">My
+                      Account </button></a>
+                
               </div>
-              <div class="col-4 col-md-12">
-                <button class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1">Money Transfer</button>
+              <div class="col-4 col-md-12 p-2 ">
+                <a href="/NoTransactionHistory.html"><button class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center p-1">Money Transfer</button></a>
               </div>
-              <div class="col-4 col-md-12">
+              <div class="col-4 col-md-12 p-2 ">
                 <a href="/TransactionHistory.html"><button
-                    class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1">Transaction
+                    class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center p-1">Transaction
                     History</button></a>
               </div>
 
-              <div class="col-4 col-md-12">
+              <div class="col-4 col-md-12 p-2 ">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1"
+                <button type="button" class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center p-1"
                   data-toggle="modal" data-target="#exampleModalCenter">
                   Change Password
                 </button>
@@ -83,9 +88,9 @@
                 </div>
               </div>
 
-              <div class="col-4 col-md-12">
+              <div class="col-4 col-md-12 p-2 ">
                 <!-- Button trigger modal -->
-                <button type="button" class="bg-primary border-0 rounded text-white m-2 text-center w-75 p-1"
+                <button type="button" class="transaction-btns w-100 d-block bg-primary border-0 rounded text-white m-2 text-center p-1"
                   data-toggle="modal" data-target=".bd-example-modal-sm">Logout</button>
 
                 <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog"
@@ -111,7 +116,7 @@
 
             </div>
 
-            <div class="mt-3" style="width: 90%; margin: auto;">
+            <div class="mt-3 d-none d-md-block" style="width: 90%; margin: auto;">
               <img class="w-75 mb-2" height="150px" src="/images/online-banking.jfif" alt="">
             </div>
           </div>
@@ -122,8 +127,8 @@
       <div class="col-md-8 border border-bottom-0 border-top-0">
         <div class="bg-primary d-flex align-items-center justify-content-center rounded"
           style="background-position: left; background-image: linear-gradient(to right, rgb(158, 179, 236), rgba(130, 150, 235, 0) ), url(/images/online-banking.jfif); background-repeat: no-repeat;">
-          <span class="text-white text-end">Online Banking
-            <p>Secure access to banking services</p>
+          <span class="text-white text-end font-weight-bold mt-3">Online Banking
+            <p class="font-weight-normal">Secure access to banking services</p>
           </span>
         </div>
 
@@ -207,31 +212,37 @@
         </div>
 
         <div class="mt-5 text-center">
-          <img width="80px" class="" src="/images/verisign-secured-logo.png" alt="">
+          <img width="80px" class="d-md-block d-none m-auto" src="/images/verisign-secured-logo.png" alt="">
         </div>
 
       </div>
 
-      <div class="col-2">
-        <div class="row mx-0 d-md-block">
-          <div class="">
-            <img class="w-100 mb-2" src="/images/passport-image.jpg" alt="">
+      <div class="col-12 col-md-2">
+        <div class="d-flex  justify-content-center mx-md-0 d-md-block">
+          <div class="col-2 col-md-12">
+            <img class="transaction-images  w-100 mb-2 d-none d-md-block" src="/images/passport-image.jpg" alt="">
+            <img width="80px" class="d-block d-md-none" src="/images/verisign-secured-logo.png" alt="">
           </div>
-          <div class="">
-            <img class="w-100" src="/images/mobile-banking-img.jfif" alt="">
+          <div class="col-3 col-md-12">
+            <img class="transaction-images w-100" src="/images/mobile-banking-img.jfif" alt="">
           </div>
-          <div class="">
-            <img class="w-100" src="/images//mobile-banking-security-img.jpg" alt="">
+          <div class="col-3 col-md-12">
+            <img class="transaction-images w-100" src="/images//mobile-banking-security-img.jpg" alt="">
           </div>
-          <div class="">
-            <img class="w-100" src="/images/secure-banking-promise.png" alt="">
+          <div class="col-3 col-md-12">
+            <img class="transaction-images w-100" src="/images/secure-banking-promise.png" alt="">
           </div>
         </div>
       </div>
     </section>
   </main>
 
-
+<footer class="bg-dark mb-0 mt-3">
+      <div class=" text-center text-white py-2">
+              <i class="fa fa-copyright text-white" aria-hidden="true"></i>
+              Copyright - Midwest Heritage
+      </div>
+</footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
